@@ -35,7 +35,7 @@ const Modal = ({setModal, animateModal, setAnimateModal, saveExpense, editExpens
 
         if ([expenseName, amount, category].includes('')) {
 
-            setMessage('Todos son obligatorios');
+            setMessage('All Fields Are Required');
 
             setTimeout(() => {
                 setMessage('')
